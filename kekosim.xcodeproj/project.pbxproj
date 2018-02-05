@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35844B44A8D37BC522C373D3 /* Pods_kekosim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B64C0A8226B5289561D113 /* Pods_kekosim.framework */; };
+		853A72F41F9B39FD005C5813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853A72F31F9B39FD005C5813 /* AppDelegate.swift */; };
+		853A72F61F9B39FD005C5813 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853A72F51F9B39FD005C5813 /* ViewController.swift */; };
+		853A72FB1F9B39FD005C5813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853A72FA1F9B39FD005C5813 /* Assets.xcassets */; };
+		853A72FE1F9B39FD005C5813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853A72FC1F9B39FD005C5813 /* LaunchScreen.storyboard */; };
+		85E07E041F9B5C9500138BB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 853A73051F9B3A52005C5813 /* GoogleService-Info.plist */; };
+		85E07E061F9B5D7800138BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E07E051F9B5D3600138BB1 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2911CB24E707C47870EE9FB6 /* Pods-kekosim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kekosim.release.xcconfig"; path = "Pods/Target Support Files/Pods-kekosim/Pods-kekosim.release.xcconfig"; sourceTree = "<group>"; };
+		5B311849DC73603BDD02F78C /* Pods-kekosim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kekosim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kekosim/Pods-kekosim.debug.xcconfig"; sourceTree = "<group>"; };
+		853A72F01F9B39FD005C5813 /* kekosim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kekosim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853A72F31F9B39FD005C5813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		853A72F51F9B39FD005C5813 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		853A72FA1F9B39FD005C5813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		853A72FD1F9B39FD005C5813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		853A72FF1F9B39FD005C5813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853A73051F9B3A52005C5813 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85E07E051F9B5D3600138BB1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B8B64C0A8226B5289561D113 /* Pods_kekosim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kekosim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		853A72ED1F9B39FD005C5813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35844B44A8D37BC522C373D3 /* Pods_kekosim.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E4A6031A42208F8C5964A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B311849DC73603BDD02F78C /* Pods-kekosim.debug.xcconfig */,
+				2911CB24E707C47870EE9FB6 /* Pods-kekosim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		853A72E71F9B39FC005C5813 = {
+			isa = PBXGroup;
+			children = (
+				853A72F21F9B39FD005C5813 /* kekosim */,
+				853A72F11F9B39FD005C5813 /* Products */,
+				03E4A6031A42208F8C5964A1 /* Pods */,
+				CC01D3D17FFADCD379AB772B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		853A72F11F9B39FD005C5813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				853A72F01F9B39FD005C5813 /* kekosim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		853A72F21F9B39FD005C5813 /* kekosim */ = {
+			isa = PBXGroup;
+			children = (
+				853A72F31F9B39FD005C5813 /* AppDelegate.swift */,
+				853A72F51F9B39FD005C5813 /* ViewController.swift */,
+				85E07E051F9B5D3600138BB1 /* Main.storyboard */,
+				853A72FA1F9B39FD005C5813 /* Assets.xcassets */,
+				853A72FC1F9B39FD005C5813 /* LaunchScreen.storyboard */,
+				853A72FF1F9B39FD005C5813 /* Info.plist */,
+				853A73051F9B3A52005C5813 /* GoogleService-Info.plist */,
+			);
+			path = kekosim;
+			sourceTree = "<group>";
+		};
+		CC01D3D17FFADCD379AB772B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8B64C0A8226B5289561D113 /* Pods_kekosim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		853A72EF1F9B39FD005C5813 /* kekosim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853A73021F9B39FD005C5813 /* Build configuration list for PBXNativeTarget "kekosim" */;
+			buildPhases = (
+				BAABBB71081EDC91BF4AA394 /* [CP] Check Pods Manifest.lock */,
+				853A72EC1F9B39FD005C5813 /* Sources */,
+				853A72ED1F9B39FD005C5813 /* Frameworks */,
+				853A72EE1F9B39FD005C5813 /* Resources */,
+				F8B3F2DB0C1852664D68006C /* [CP] Embed Pods Frameworks */,
+				C937DC7501B7F70991DCC216 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kekosim;
+			productName = kekosim;
+			productReference = 853A72F01F9B39FD005C5813 /* kekosim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		853A72E81F9B39FC005C5813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Minami;
+				TargetAttributes = {
+					853A72EF1F9B39FD005C5813 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 853A72EB1F9B39FC005C5813 /* Build configuration list for PBXProject "kekosim" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 853A72E71F9B39FC005C5813;
+			productRefGroup = 853A72F11F9B39FD005C5813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				853A72EF1F9B39FD005C5813 /* kekosim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		853A72EE1F9B39FD005C5813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853A72FE1F9B39FD005C5813 /* LaunchScreen.storyboard in Resources */,
+				85E07E041F9B5C9500138BB1 /* GoogleService-Info.plist in Resources */,
+				853A72FB1F9B39FD005C5813 /* Assets.xcassets in Resources */,
+				85E07E061F9B5D7800138BB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BAABBB71081EDC91BF4AA394 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kekosim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C937DC7501B7F70991DCC216 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kekosim/Pods-kekosim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B3F2DB0C1852664D68006C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kekosim/Pods-kekosim-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kekosim/Pods-kekosim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		853A72EC1F9B39FD005C5813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853A72F61F9B39FD005C5813 /* ViewController.swift in Sources */,
+				853A72F41F9B39FD005C5813 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		853A72FC1F9B39FD005C5813 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853A72FD1F9B39FD005C5813 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		853A73001F9B39FD005C5813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		853A73011F9B39FD005C5813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		853A73031F9B39FD005C5813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B311849DC73603BDD02F78C /* Pods-kekosim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR762T3P84;
+				INFOPLIST_FILE = kekosim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzrb.kekosim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		853A73041F9B39FD005C5813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2911CB24E707C47870EE9FB6 /* Pods-kekosim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR762T3P84;
+				INFOPLIST_FILE = kekosim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzrb.kekosim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		853A72EB1F9B39FC005C5813 /* Build configuration list for PBXProject "kekosim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853A73001F9B39FD005C5813 /* Debug */,
+				853A73011F9B39FD005C5813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853A73021F9B39FD005C5813 /* Build configuration list for PBXNativeTarget "kekosim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853A73031F9B39FD005C5813 /* Debug */,
+				853A73041F9B39FD005C5813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 853A72E81F9B39FC005C5813 /* Project object */;
+}
